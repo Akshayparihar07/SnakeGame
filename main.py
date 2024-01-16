@@ -82,10 +82,10 @@ def move():
  
  
 wn.listen()
-wn.onkeypress(goup, "Up")      # Change "w" to "Up" for the up arrow key
-wn.onkeypress(godown, "Down")  # Change "s" to "Down" for the down arrow key
-wn.onkeypress(goleft, "Left")  # Change "a" to "Left" for the left arrow key
-wn.onkeypress(goright, "Right") # Change "d" to "Right" for the right arrow key
+wn.onkeypress(goup, "Up")
+wn.onkeypress(godown, "Down")
+wn.onkeypress(goleft, "Left")
+wn.onkeypress(goright, "Right") 
 
  
 segments = []
